@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // Monta a lista de participantes (ou mensagem caso não haja)
+        // Adiciona a lista de participantes
         let participantsHtml = "";
         if (details.participants.length > 0) {
           participantsHtml = `
